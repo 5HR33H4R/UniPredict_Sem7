@@ -3,7 +3,6 @@ import pickle
 from flask import Flask, render_template, url_for, request, redirect
 from flask import *
 import random
-from predict import *
 
 app = Flask(__name__)
 
